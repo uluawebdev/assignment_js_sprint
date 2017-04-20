@@ -3,6 +3,14 @@
 var sprintFunctions = {
   largestEl: function(){  
     // your code here
+    var target = document.getElementById('largest-el');
+    var el = [5,12,84,13,7,20];
+    // get largest num in array by applyig Math.max function
+		var result = Math.max.apply(null, el);
+		
+			return target.innerHTML = '<p>' + result + '</p>';
+
+    
   },
   
   reversed: function(){  
@@ -29,4 +37,6 @@ var sprintFunctions = {
   primes: function(){  
     // your code here
   },
-}
+};
+
+sprintFunctions.largestEl();
