@@ -98,11 +98,3 @@ var sprintFunctions = {
     target.innerHTML = '<p>' + primeNum + '</p>';
   },
 };
-
-sprintFunctions.largestEl([5, 12, 84, 13, 7, 20]);
-sprintFunctions.reversed('triumph');
-sprintFunctions.loudSnakeCase('LOrEm&IpSUM dOLor.AMIt');
-sprintFunctions.compareArrays(['dog', 'cat', 'fish'], ['dog', 'cat', 'fish']);
-sprintFunctions.fizzBuzz(50);
-sprintFunctions.myMap();
-sprintFunctions.primes(5);
